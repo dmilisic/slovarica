@@ -1,0 +1,41 @@
+.hidden {
+    display: none !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    .screen {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+table {
+    /* border-collapse: collapse; */
+    margin: auto;
+
+    td {
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        text-align: center;
+        padding: 8px;
+        font-size: 10vmin;
+        width: 2em;
+        height: 2em;
+    }
+}
+
+.game-over {
+    background-color: #ff9999;
+}
+
+.wrapper {
+    margin: auto;
+    text-align: center;
+}
